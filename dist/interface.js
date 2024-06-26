@@ -10,6 +10,8 @@ function tryTurnOn(tv) {
     tv.turnOn();
 }
 tryTurnOn(myTV);
+function ajaxSignUp(data) {
+}
 function createBoard() {
     var cells = [];
     for (var row = 0; row < 4; row++) {

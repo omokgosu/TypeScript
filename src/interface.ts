@@ -26,6 +26,16 @@ interface Cell {
   piece?: Piece;
 }
 
+interface SignUp {
+  email: string;
+  id: string;
+  password: string;
+}
+
+function ajaxSignUp(data: SignUp) {
+  // 서버로 회원가입 데이터를 보내는 함수
+}
+
 interface Piece {
   move(from: Cell, to: Cell): boolean;
 }
